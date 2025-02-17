@@ -6,7 +6,6 @@
     --blanco-roto: #F8F8F8;
     --gris-claro: #D3D3D3;
     --verde-suave: #A8D5BA;
-    --blanco: #fff;
 }
 
 /* Estilo general */
@@ -35,11 +34,11 @@ header {
 .navbar-brand {
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--blanco);
+    color: var(--blanco-roto);
 }
 
 .navbar-nav .nav-link {
-    color: var(--blanco);
+    color: var(--blanco-roto);
     font-size: 1.1rem;
 }
 
@@ -50,7 +49,7 @@ header {
 /* Footer */
 footer {
     background-color: var(--burdeos-oscuro);
-    color: var(--blanco);
+    color: var(--blanco-roto);
     text-align: center;
     padding: 20px 0;
 }
@@ -100,13 +99,13 @@ section h2 {
     margin: 25px 0;
     border-radius: 10px;
     font-style: italic;
-    color: var(--blanco);
+    color: var(--blanco-roto);
 }
 
 #testimonios footer {
     text-align: right;
     font-weight: bold;
-    color: var(--blanco);
+    color: var(--blanco-roto);
 }
 
 /* Formulario de contacto */
@@ -130,7 +129,7 @@ section h2 {
 
 #contacto button {
     background-color: var(--dorado-brillante);
-    color: var(--blanco);
+    color: var(--blanco-roto);
     border: none;
     padding: 12px 25px;
     border-radius: 10px;
@@ -192,14 +191,14 @@ section h2 {
 #calendar {
     max-width: 100%;
     margin: 0 auto;
-    background-color: var(--blanco);
+    background-color: var(--blanco-roto);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .fc-toolbar {
-    background-color: #f8f9fa;
+    background-color: var(--blanco-roto);
     border: none;
     padding: 15px 10px;
     border-radius: 5px;
@@ -207,7 +206,7 @@ section h2 {
 
 .fc-button {
     background-color: #007bff;
-    color: var(--blanco);
+    color: var(--blanco-roto);
     border-radius: 5px;
 }
 
@@ -290,7 +289,7 @@ section h2 {
 
 .hero p {
     font-size: 1.4rem;
-    color: var(--blanco);
+    color: var(--blanco-roto);
 }
 
 .carousel-inner .carousel-item img {
