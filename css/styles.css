@@ -302,3 +302,35 @@ section h2 {
 #logo {
     height: 60px;
 }
+
+
+
+
+.footer-link {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: var(--dorado-brillante);
+    text-decoration: underline;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+    line-height: 2;
+}
+
+
+
+.bi:hover { 
+    color: var(--dorado-brillante);
+    text-decoration: underline;
+}
+
+.bi { 
+    color: var(--white);
+    text-decoration: none;
+}
