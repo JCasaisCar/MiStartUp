@@ -5,7 +5,6 @@
     --gris-suave: #EAEAEA;
     --blanco-roto: #F8F8F8;
     --gris-claro: #D3D3D3;
-    --verde-suave: #A8D5BA;
 }
 
 /* Estilo general */
@@ -93,7 +92,7 @@ section h2 {
 
 /* Testimonios */
 #testimonios blockquote {
-    background-color: var(--verde-suave);
+    background-color: var(--gris-suave);
     border-left: 5px solid var(--dorado-brillante);
     padding: 15px 30px;
     margin: 25px 0;
