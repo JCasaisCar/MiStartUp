@@ -47,7 +47,6 @@ header {
 
 /* Footer */
 footer {
-    background-color: var(--burdeos-oscuro);
     color: var(--blanco-roto);
     text-align: center;
     padding: 20px 0;
@@ -98,13 +97,13 @@ section h2 {
     margin: 25px 0;
     border-radius: 10px;
     font-style: italic;
-    color: var(--blanco-roto);
+    color: var(--burdeos-oscuro);
 }
 
 #testimonios footer {
     text-align: right;
     font-weight: bold;
-    color: var(--blanco-roto);
+    color: var(--burdeos-oscuro);
 }
 
 /* Formulario de contacto */
